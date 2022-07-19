@@ -25,11 +25,11 @@ userQuery.where('age').equals(13); // results where user age is 18
 ```
 * `gt()` - greater than
 ```javascript
-userQuery.where('age').equals(13); // results where user age is more than 18
+userQuery.where('age').gt(13); // results where user age is more than 18
 ```
 * `lt()` - less than
 ```javascript
-userQuery.where('age').equals(13); // results where user age is less than 18
+userQuery.where('age').lt(13); // results where user age is less than 18
 ```
 * `gte()` - greater than or equal to
 ```javascript
